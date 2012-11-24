@@ -41,22 +41,6 @@
    		}
 			return true;
    	}
-   	
-   	public function tieneLista($id){
-   		$this->conectar();
-   		
-   		$result = pg_query("select * from cargo where id_alumno=".$id);
-   		if(pg_num_rows($result) == 1){return true;}
-   		else {return false;}
-   	}
-   	
-   	public function tieneProy($id){
-   		$this->conectar();
-   		
-   		$result = pg_query("select * from proyAlumno where id_alumno=".$id);
-   		if(pg_num_rows($result) == 1){return true;}
-   		else {return false;}
-   	}
  
  
 

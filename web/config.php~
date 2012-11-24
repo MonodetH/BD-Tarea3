@@ -12,6 +12,6 @@
 	$path['control']=getcwd().'/web/controller/';
 	$path['css']=getcwd().'/web/css/';
 	$path['images']=getcwd().'/web/images/';
-	$path['form']=getcwd().'/web/form/';
+	$path['images']=getcwd().'/web/form/';
 	$path['url']='http://'.$_SERVER['HTTP_HOST'].'/tarea3/';
 ?>

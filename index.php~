@@ -21,7 +21,7 @@
 				elseif($url_param[1] == 'usuario') {require($path['control'].'usuario.php');}
 				else{require($path['vista'].'404.php');}
 			}else {require($path['vista'].'404.php');}
-		}else {require($path['vista'].'inicio.php');}
+		}else {require($path['control'].'inicio.php');}
 	}else {require($path['vista'].'login.php');}
 	
 	require($path['vista'].'footer.php');
